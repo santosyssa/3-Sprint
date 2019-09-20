@@ -1,0 +1,56 @@
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.deps.json
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.runtimeconfig.json
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.runtimeconfig.dev.json
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.dll
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.csprojAssemblyReference.cache
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.csproj.CoreCompileInputs.cache
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorAssemblyInfo.cache
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorAssemblyInfo.cs
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.AssemblyInfoInputs.cache
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.AssemblyInfo.cs
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorTargetAssemblyInfo.cache
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.pdb
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.dll
+c:\users\46445396860\documento\2°Termo\Sstop\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.pdb
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.csprojAssemblyReference.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorAssemblyInfo.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorAssemblyInfo.cs
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.AssemblyInfoInputs.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.AssemblyInfo.cs
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.dll
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.pdb
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.deps.json
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.runtimeconfig.json
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.runtimeconfig.dev.json
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.dll
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.pdb
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Senai.Sstop.WebApi\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.deps.json
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.runtimeconfig.json
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.runtimeconfig.dev.json
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.dll
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.pdb
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.csprojAssemblyReference.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorAssemblyInfo.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorAssemblyInfo.cs
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.AssemblyInfoInputs.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.AssemblyInfo.cs
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.dll
+C:\Users\46445396860\Documents\2° Termo\2-Sprint\Filmes\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.pdb
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.deps.json
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.runtimeconfig.json
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.runtimeconfig.dev.json
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.dll
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\bin\Debug\netcoreapp2.1\Senai.Sstop.WebApi.pdb
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.csprojAssemblyReference.cache
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorAssemblyInfo.cache
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorAssemblyInfo.cs
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.AssemblyInfoInputs.cache
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.AssemblyInfo.cs
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.dll
+C:\Users\46445396860\Documents\2° Termo\3-Sprint\Sstop\Senai.Sstop.WebApi\obj\Debug\netcoreapp2.1\Senai.Sstop.WebApi.pdb
