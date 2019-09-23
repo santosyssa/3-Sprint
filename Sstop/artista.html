@@ -18,7 +18,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon1">Cadastrar</span>
                     </div>
-                    <input type="text" id="nomeEstilo" class="form-control" placeholder="Nome do Estilo Musical"
+                    <input type="text" id="nomeArtista" class="form-control" placeholder="Nome do Artista"
                         aria-label="nome" aria-describedby="basic-addon1" />
                 </div>
             </div>
@@ -42,28 +42,28 @@
         </div>
     </div>
     <script>
-        const input__estilo = document.querySelector('#nomeEstilo');
+        const input__estilo = document.querySelector('#nomeArtista');
         const btn__cadastrar = document.querySelector('#btnCadastrar');
         const tabela = document.querySelector('#tabela-lista-corpo');
 
         window.onload = function () {
-            let estilos = [];
+            let artitas = [];
 
-            let url = 'http://localhost:5000/api/estilos';
+            let url = 'http://localhost:5000/api/artitas';
 
             fetch(url)
                 .then(resposta => resposta.json())
                 .then(data => construirTabela(data))
                 .catch(erro => console.log(erro))
 
-            function construirTabela(estilos) {
-                estilos.forEach(element => {
+            function construirTabela(artitas) {
+                artitas.forEach(element => {
 
                     const tr = document.createElement('tr');
                     const td_id = document.createElement('td');
                     const td_nome = document.createElement('td');
 
-                    td_id.textContent = element.idEstilo;
+                    td_id.textContent = element.idArtista;
                     td_nome.textContent = element.nome;
 
                     tr.appendChild(td_id);
@@ -78,12 +78,12 @@
         btn__cadastrar.addEventListener('click', function(event){          
             
             let objetoJSON = {
-                nome: input__estilo.value
+                nome: input__artista.value
             };
             
-            var estilo = input__estilo.value; 
+            var artista = input__artista.value; 
             
-            if (estilo.length < 4) {
+            if (artista.length < 4) {
                 console.log('Minimo de caracteres é 4')
             } else {
 
@@ -100,7 +100,7 @@
                     }
                 }
                 
-                xhr.open('POST', 'http://localhost:5000/api/estilos', true);
+                xhr.open('POST', 'http://localhost:5000/api/artistas', true);
                 xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
                 xhr.send(JSON.stringify(objetoJSON));
             }
