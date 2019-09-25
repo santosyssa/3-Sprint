@@ -29,8 +29,9 @@
     <table id="pokemon-lista">
             <thead>
                 <tr>
-                    <th>Id</th>
+                    <th>#</th>
                     <th>Nome</th>
+                    <th>Imagem</th>
                 </tr>
             </thead>
 
@@ -38,9 +39,9 @@
 </body>
 
 <script>
-         const tabelaPokemon = document.querySelector("#pokemonListCorpo");
+         const tabelaPokemon = document.querySelector("#pokemon-lista-corpo");
         const url = 'https://pokeapi.co/api/v2/pokemon';
-        const inputPokemon = document.querySelector("#pokemonInput");
+        const inputPokemon = document.querySelector("#newInput");
         const buttonPokemon = document.querySelector("#newsButton");
 
         fetch(url)
