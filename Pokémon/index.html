@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokémon</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+      
+    <header class="menu">
+        <div class="text">
+            <h1 class="title" id="menuTitle">Digite o nome do Pokémon</h1>
+            <form action="" class="form">
+                <div class="formGroup">
+                    <input type="text" class="pokemonInput" id="newInput" placeholder="">
+                </div>
+                <div class="form_group">
+                    <button class="pokemonButton" id="newsButton" >Procurar</button>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <table id="pokemon-lista">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                </tr>
+            </thead>
+
+            <tbody id="pokemon-lista-corpo"></tbody>
+</body>
+
+<script>
+         const tabelaPokemon = document.querySelector("#pokemonListCorpo");
+        const url = 'https://pokeapi.co/api/v2/pokemon';
+        const inputPokemon = document.querySelector("#pokemonInput");
+        const buttonPokemon = document.querySelector("#newsButton");
+
+        fetch(url)
+            .then(resposta => resposta.json())
+            .then(data => prencherTabela(data))
+            .catch(error => console.log(error))
+
+        function prencherTabela(pokemons) {
+            console.log(pokemons)
+
+            pokemons.results.forEach(element => {
+
+                let linha = document.createElement('tr');
+                let td_id = document.createElement('td');
+                let td_nome = document.createElement('td');
+                // let td_habilidade = document.createElement('td');               
+
+                td_id.innerText = element.url;
+                td_nome.innerText = element.name;
+                // td_habilidade.innerText = element.habilidade;
+
+                linha.appendChild(td_id);
+                linha.appendChild(td_nome);
+                // linha.appendChild(td_habilidade);
+
+                tabelaPokemon.appendChild(linha);
+
+                console.log(tabelaPokemon)
+            });
+        }
+
+        buttonPokemon.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            let urlBuscar = 'https://pokeapi.co/api/v2/pokemon/' + inputPokemon.value + '/';
+
+            fetch(urlBuscar)
+                .then(resposta => resposta.json())
+                .then(data => buscarPokemon(data))
+                .catch(error => console.log(error))
+
+            function buscarPokemon(pokemon) {
+
+                tabelaPokemon.innerHTML = "";
+
+                let linha = document.createElement('tr');
+                let td_id = document.createElement('td');
+                let td_nome = document.createElement('td');
+                let local = document.createElement('td');
+                let imagem = document.createElement('img');
+
+                td_id.innerText = pokemon.id;
+                td_nome.innerText = pokemon.name;   
+                imagem.setAttribute('src',pokemon.sprites.front_default)
+                
+                linha.appendChild(td_id);
+                linha.appendChild(td_nome);
+                linha.appendChild(local);
+                local.appendChild(imagem);
+                tabelaPokemon.appendChild(linha);
+
+            };
+        });
+    </script>
+</html>

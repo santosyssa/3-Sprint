@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: hsla(352, 79%, 42%, 0.932);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.menuTitle {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: -130px;
+}
+
+.formGroup {
+    position: relative;
+    width: 100%;
+}
+
+.pokemonInput {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.pokemonButton {
+    background-color: #ECDDF3;
+    color: #000000;
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 20px;
+    width: 130px;
+    position: absolute;
+    bottom: -50px;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -65px;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 250px;
+}
