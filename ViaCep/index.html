@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>
+        Viacep
+    </title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-55">
+            <div class="container">
+                <form action="/action_page.php"> 
+                    <div class="border">
+                        <div class="row">
+                            <div class="col-30">
+
+                                <h3>Digite seus dados</h3>
+
+                                <label for="fname"><i class="fa fa-user"></i> Cep</label>
+                                <input arial-label="cep" type="text" id="cep" name="cep" placeholder="">
+
+                                <label for="logradouro"><i class="fa fa-envelope"></i> Logradouro</label>
+                                <input type="text" id="logradouro" name="logradouro"
+                                    placeholder="">
+
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Complemento</label>
+                                <input type="text" id="complemento" name="complemento" placeholder="">
+
+                                <label for="city"><i class="fa fa-institution"></i> Bairro</label>
+                                <input type="text" id="bairro" name="bairro" placeholder="">
+
+                                <label for="city"><i class="fa fa-institution"></i> Localidade</label>
+                                <input type="text" id="localidade" name="localidade" placeholder="">
+
+                                <label for="city"><i class="fa fa-institution"></i> Uf</label>
+                                <input type="text" id="uf" name="uf" placeholder="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn" id="cadastro">
+                </form> 
+            </div>
+        </div>
+
+        <script>
+            const dados_cep = document.querySelector('#cep');
+            const logradouro = document.querySelector("#logradouro");
+            const complemento = document.querySelector("#complemento");
+            const bairro = document.querySelector("#bairro");
+            const localidade = document.querySelector("#localidade");
+            const uf = document.querySelector("#uf")
+
+            
+
+            cadastro.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                let cep = dados_cep.value
+
+                const URL = 'https://viacep.com.br/ws/' + cep + '/json/';
+
+                fetch(URL)
+                    .then(resposta => resposta.json())
+                    .then(data => pegar_informacoes(data))
+                    .catch(erro => console.log(erro))
+            })
+
+            function pegar_informacoes(informacao_retornada) {
+                console.log(informacao_retornada)
+                logradouro.value = informacao_retornada.logradouro;
+                bairro.value = informacao_retornada.bairro;
+                complemento.value = informacao_retornada.complemento;
+                localidade.value = informacao_retornada.localidade;
+                uf.value = informacao_retornada.uf;
+            }
+
+        </script>
+</body>
+
+</html>
