@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
+//pages
 import App from './pages/Home/App';
 import Categorias from './pages/Categorias/Categorias';
+import Eventos from './pages/Eventos/Eventos';
+import Contatos from './pages/Contatos/Contatos';
 import Login from './pages/Login/Login';
 import NaoEncontrado from './pages/NaoEncontrado/NaoEncontrado';
 
@@ -32,8 +36,10 @@ const routing = (
         <div>
             <Switch>
             <Route exact path='/' component={App}/>
+            <Route path='/categorias' component={Categorias}/>
+            <Route exact path='/eventos' component={Eventos}/>
+            <Route exact path='/contatos' component={Contatos}/>
             <Route path='/login'component={Login}/>
-            <RotaPrivada path='/categorias' component={Categorias}/>
             <Route component={NaoEncontrado}/>
             </Switch>
         </div>
