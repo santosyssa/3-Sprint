@@ -35,12 +35,12 @@ const routing = (
     <Router>
         <div>
             <Switch>
-            <Route exact path='/' component={App}/>
-            <Route path='/categorias' component={Categorias}/>
-            <Route exact path='/eventos' component={Eventos}/>
-            <Route exact path='/contatos' component={Contatos}/>
-            <Route path='/login'component={Login}/>
-            <Route component={NaoEncontrado}/>
+                <Route exact path='/' component={App}/>
+                <Route path='/categorias' component={Categorias}/>
+                <Route path='/eventos' component={Eventos}/>
+                {/* <Route path='/contatos' component={Contatos}/> */}
+                <Route path='/login'component={Login}/>
+                <Route component={NaoEncontrado}/>
             </Switch>
         </div>
     </Router>

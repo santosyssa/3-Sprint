@@ -1,79 +1,78 @@
-import React, {Component} from "react";
+// dentro do react tem alguma coisa com o nome de component
+import React,{Component} from "react";
 
-//imagem
+// importar a imagem
 import logo from '../../assets/img/icon-login.png'
 
-//rodape
+// component
 import Rodape from '../../components/Rodape';
-import Titulo from '../../components/Titulo';
+import Titulo from "../../components/Titulo";
+
+// defnir uma className onde meu categorias ta herdando component
 
 class Categorias extends Component{
-
-      constructor(){
+constructor(){
+        // tudo que tiver em component sera passado p ca
         super();
         this.state = {
-          lista: [
-            // {idCategoria: 1, nome: "Design"},
-            // {idCategoria: 2, nome: "Jogos"},
-            // {idCategoria: 3, nome: "Meetup"}
-          ],
-          nome: ""
+            lista: [],
+            nome: ""
         }
-      }
+    }
 
-      componentDidMount(){
-        this.listarCategorias()
-      }
+    // criandu uma funcao ja existente
+    componentDidMount(){
+      this.listarCategoria();
+    }
 
-      listarCategorias =() =>{
-        fetch('http://192.168.7.85:5000/api/categorias')
+    listarCategoria = () =>{
+      fetch('http://192.168.7.85:5000/api/categorias')
         .then(response => response.json())
         .then(data => this.setState({lista: data}));
-      }
+    }
 
-      // adicionaItem =(event) =>{
-      //   event.preventDefault();
+    // adicionaItem =(event) =>{
+    //     event.preventDefault();
 
-      //   let lista ={idCategoria: 4, nome: "Nova Categoria"};
+    //     let lista = {idCategoria: 4, nome: 'Nova Categoria'};
 
-      //   let lista_state = this.state.lista;
+    //     let lista_state = this.state.lista;
+        
+    //     lista_state.push(lista);
 
-      //   lista_state.push(lista);
-      //   console.log(lista_state)
+    //     this.setState({lista: lista_state});
+    // }
 
-      //   this.setState({lista: lista_state});
+    cadastrarCategoria = (event) =>{
+      event.preventDefault();
+      
+      fetch('http://192.168.7.85:5000/api/categorias',{
+        method: "POST",
+        body: JSON.stringify({ nome : this.state.nome}),
+        headers: {
+          "Content-Type": "application/json"
+        }
+      })
+      .then(response => this.listarCategoria())
+      .catch(erro => console.log(erro));
 
-      // }
+    }
 
-      cadastrarCategoria = (event) =>{
-        event.preventDefault();
+    // capturar o valor do imput
+    nomeCategoria = (event) => {
+      //alterar o seu estado
+      this.setState({nome: event.target.value});
 
-        fetch('http://192.168.7.85:5000/api/categorias',{
-            method: "POST",
-            body: JSON.stringify({nome: this.state.nome}),
-            headers: {
-              "Content-Type": "application/json"
-            }
-        })
+      console.log(this.state);
 
-        .then(response => this.listarCategorias())
-        .catch(erro => console.log(erro));
-      }
+    }
 
-      nomeCategoria = (event) =>{
-        console.log(event.target.value);
-        this.setState({nome: event.target.value});
-        console.log(this.state);
-      }
-
-
-        render(){
-            return(
-
+    render(){
+        return (
     <div>
       <header className="cabecalhoPrincipal">
         <div className="container">
-          <img src={logo} />
+          <img src={logo}/>
 
           <nav className="cabecalhoPrincipal-nav">
             Administrador
@@ -83,8 +82,7 @@ class Categorias extends Component{
 
       <main className="conteudoPrincipal">
         <section className="conteudoPrincipal-cadastro">
-          {/* <h1 className="conteudoPrincipal-cadastro-titulo">Categorias</h1> */}
-          <Titulo titulo="Categorias" />
+          <Titulo titulo="Categorias"/>
           <div className="container" id="conteudoPrincipal-lista">
             <table id="tabela-lista">
               <thead>
@@ -94,16 +92,16 @@ class Categorias extends Component{
                 </tr>
               </thead>
 
-              <tbody id="tabela-lista-corpo"></tbody>
-              {this.state.lista.map(element =>{
-                return(
-                  //não sair da ordem
-                  <tr key={element.idCategoria}>
-                    <td>{element.idCategoria}</td>
-                    <td>{element.nome}</td>
-                  </tr>
-                )
-              })}
+              <tbody id="tabela-lista-corpo">
+                  {this.state.lista.map(element =>{
+                      return(
+                        <tr key={element.idCategoria}>
+                            <td>{element.idCategoria}</td>
+                            <td>{element.nome}</td>
+                        </tr>
+                      );
+                  })}
+              </tbody>
             </table>
           </div>
 
@@ -119,12 +117,11 @@ class Categorias extends Component{
                   id="input__categoria"
                   placeholder="tipo do evento"
                   value={this.state.nome}
-                  onChange ={this.nomeCategoria}
+                  onChange={this.nomeCategoria}
                 />
                 <button
                   id="btn__cadastrar"
                   className="conteudoPrincipal-btn conteudoPrincipal-btn-cadastro"
-                  
                 >
                   Cadastrar
                 </button>
@@ -133,11 +130,11 @@ class Categorias extends Component{
           </div>
         </section>
       </main>
-
+        
       <Rodape />
-    </div>
-            );
+    </div>        
+    );
     }
 }
 
-export default Categorias; 
+export default Categorias;
